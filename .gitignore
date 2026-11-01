@@ -1,0 +1,12 @@
+# Playable builds belong in GitHub Releases, not the repository.
+*.dsk
+*.dc42
+*.hdv
+*.chd
+*.bin
+*.zip
+*.7z
+*.tar.gz
+.DS_Store
+.idea/
+
