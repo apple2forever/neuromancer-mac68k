@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.0.2
+
+- Added short sound cues when cycling and confirming conversation choices.
+- Lower-left command icons now invert while held; dragging outside cancels the click.
+- Updated the application's About and Finder version resources.
+- Rebuilt save-free 1.44 MB HFS installation disks for the Color and Monochrome editions.
+
 ## v0.0.1
 
 Initial Macintosh release, available in **Monochrome** and **Color** editions.

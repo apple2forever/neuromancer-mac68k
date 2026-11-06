@@ -6,7 +6,8 @@
 
 A native 68K Macintosh adaptation of *Neuromancer*, based on the Apple IIGS game. Explore the city, follow conversations and clues, connect to databases, and confront ICE and AI in cyberspace—with a Macintosh interface designed for a 512 × 342 screen.
 
-**v0.0.1 · Monochrome & Color**  
+**v0.0.2 · Monochrome & Color**
+
 [Downloads / Releases](https://github.com/apple2forever/neuromancer-mac68k/releases) · [한국어](README.ko.md) · [Report an issue](https://github.com/apple2forever/neuromancer-mac68k/issues)
 
 | Color | Monochrome |
@@ -18,11 +19,11 @@ A native 68K Macintosh adaptation of *Neuromancer*, based on the Apple IIGS game
 
 - **Color:** original Apple IIGS scene artwork, displayed with Color QuickDraw.
 - **Monochrome:** separately redrawn black-and-white scenes using solid shapes, dots and hatching. The artwork is not a runtime-dithered version of the color images.
-- **Macintosh controls:** clickable icons, directional exit cursors, speech bubbles, and standard file menus and dialogs.
+- **Macintosh controls:** clickable icons with a pressed state, directional exit cursors, speech bubbles, and standard file menus and dialogs.
 - **Cyberspace:** perspective 3D navigation, an optional 2D map, and dedicated ICE / AI combat controls.
 - **Progress:** New Game, Open, Save and Save As, with confirmation before discarding unsaved progress.
 
-The implemented campaign runs from Chatsubo to the final encounter and ending. This first release is still being refined; reports of bugs and differences from the original are welcome.
+The implemented campaign runs from Chatsubo to the final encounter and ending. The adaptation is still being refined; reports of bugs and differences from the original are welcome.
 
 ## Screenshots
 
@@ -40,8 +41,8 @@ Get the disk images from [GitHub Releases](https://github.com/apple2forever/neur
 
 | Edition | Release asset |
 | :--- | :--- |
-| Color | `Neuromancer-v0.0.1-Color.dsk` |
-| Monochrome | `Neuromancer-v0.0.1-Monochrome.dsk` |
+| Color | `Neuromancer-v0.0.2-Color.dsk` |
+| Monochrome | `Neuromancer-v0.0.2-Monochrome.dsk` |
 
 1. Boot your Macintosh or emulator into a compatible System 6 or System 7 installation.
 2. Mount the appropriate DSK image. Each is a **1.44 MB HFS installation image**, containing the game application only.
@@ -68,7 +69,7 @@ For System 7 / MultiFinder, keep the app's memory settings at **1,536 KB minimum
 | :--- | :--- |
 | Move around the city | Hover over a reachable scene edge for an arrow cursor, then click. `W A S D` / arrow keys also work. |
 | Talk / continue | Click **Talk** or press `T`. Click an open speech bubble or press `Return` to continue. Some NPCs speak automatically on arrival. |
-| Choose a reply | `Space` cycles thoughts; `Return` says the selected reply. Number keys select a reply directly. |
+| Choose a reply | `Space` cycles thoughts; `Return` says the selected reply. Number keys select a reply directly. Choice changes and confirmation have short sound cues. |
 | Move in 3D cyberspace | `W A S D`: forward / left / back / right, relative to your facing. `Q / E`: turn. `V`: switch to the 2D map. |
 | Fight ICE / AI | Click an action or press `1–6` to execute it. `I`: software. `S`: skills. `L`: combat log. |
 | Save / open / quit | `Command-S` / `Command-O` / `Command-Q`. `Shift-Command-S`: Save As. |
